@@ -1,2 +1,2 @@
 # Algorithms
-Repositoty of algorithms 
+Repository of algorithms 
