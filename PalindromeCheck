@@ -1,0 +1,20 @@
+//Algorithm: Palindrome check
+
+function isPalindrome(string){
+  string = string.toLowerCase();
+  var stringArr = string.split("");
+  var validCharArr = 'abcdefghijklmnopqrstuvwxyz'.split("");
+  
+  //Removing punctuations
+  var lettersArr = [];
+  stringArr.forEach(char => {
+    if(validCharArr.indexOf(char) > -1) lettersArr.push(char);
+  });
+
+if(lettersArr.reverse().join("") === lettersArr.join("")) return true;
+else return false;
+}
+
+
+//Testing
+isPalindrome("Madam I'm Adam");
