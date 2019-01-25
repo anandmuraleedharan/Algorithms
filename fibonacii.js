@@ -1,4 +1,4 @@
-//Algorithm: Fibinacii
+//Algorithm: Fibonacii
 //Time Complexity: Very High - O (2^n)
 
 function fibonacii(position){
