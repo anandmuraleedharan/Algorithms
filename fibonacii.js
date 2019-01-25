@@ -1,4 +1,5 @@
 //Algorithm: Fibinacii
+//Time Complexity: Very High - O (2^n)
 
 function fibonacii(position){
   if(position < 3) {
