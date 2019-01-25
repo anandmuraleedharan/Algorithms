@@ -1,6 +1,6 @@
 //Algorithm: Two Sum
 //Hashtable
-//Time Complexity: O(log N)
+//Time Complexity: O(N)
 
 function twoSum(numArr,sum) {
   var pairs = [];
